@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+
+    <Spinner
+        android:id="@+id/sourceUnitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/valueToConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/destUnitSpinner"
+        android:layout_marginTop="8dp"
+        android:text="@string/Value" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to" />
+
+    <Spinner
+        android:id="@+id/destUnitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sourceUnitSpinner"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/valueToConvert"
+        android:layout_marginTop="8dp"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/convertedValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="answer"
+        android:layout_below="@id/convertButton"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
