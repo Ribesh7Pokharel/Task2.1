@@ -1,0 +1,29 @@
+<resources>
+    <string-array name="units_array">
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Ton</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Cm</item>
+        <item>Km</item>
+        <item>Kg</item>
+        <item>G</item>
+    </string-array>
+    <string name="app_name">Weight Conversion</string>
+    <string name="title">Weight Conversion  </string>
+    <string name="to">Convert To</string>
+    <string name="from">Convert From</string>
+    <string name="button">Button</string>
+    <string name="spinner">Spinner</string>
+    <string name="spinner2">Spinner2</string>
+<!--    <string name="Convert">Convert</string>-->
+    <string name="Value">Value</string>
+    <string name="calculate">Calculate</string>
+    <string name="answer">Answer After Conversion</string>
+</resources>
